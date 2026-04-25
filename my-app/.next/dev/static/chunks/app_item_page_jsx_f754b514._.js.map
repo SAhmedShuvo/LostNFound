@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/lostNfound/my-app/app/item/page.jsx"],"sourcesContent":["\"use client\";\r\nimport { useState } from \"react\";\r\nimport Hero from \"./components/herosection\";\r\nimport LostOrFoundButton from \"./components/lostOrfoundButton\";\r\nimport ItemSection from \"./components/Itemsection\";\r\n\r\nexport default function Home() {\r\n  const [lostOrFound, setLostOrFound] = useState(\"lost\");\r\n  return (\r\n    <div>\r\n      <Hero/>\r\n      <LostOrFoundButton \r\n       lostOrFound={lostOrFound} \r\n       setLostOrFound={setLostOrFound} \r\n      />\r\n\r\n      <ItemSection \r\n      lostOrFound={lostOrFound}\r\n      />\r\n\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AACA;;;;;;;;;;;;;;;;;;AADA;;;;;AAMe,SAAS;;IACtB,MAAM,CAAC,aAAa,eAAe,GAAG,IAAA,yKAAQ,EAAC;IAC/C,qBACE,6LAAC;;0BACC,6LAAC;;;;;0BACD,6LAAC;gBACA,aAAa;gBACb,gBAAgB;;;;;;0BAGjB,6LAAC;gBACD,aAAa;;;;;;;;;;;;AAKnB;GAhBwB;KAAA"}}]
+}

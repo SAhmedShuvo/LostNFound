@@ -1,0 +1,10 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/my-app/app/admin/pendingItem/page": [
+      "static/media/ac59d9a92ef69f4d-s.p.64291abb.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

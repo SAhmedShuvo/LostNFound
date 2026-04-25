@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/lostNfound/my-app/app/item/layout.jsx"],"sourcesContent":["import { Geist, Geist_Mono } from \"next/font/google\";\r\nimport \"../globals.css\";\r\nimport Navbar from \"../components/navbar\";\r\nimport Footer from \"../components/footer\";\r\n\r\nexport default function RootLayout({ children }) {\r\n  return (\r\n    <>\r\n      <Navbar />\r\n      {children}\r\n      <Footer />\r\n    </>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AACA;;;;;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE;;0BACE,2PAAC,oJAAM;;;;;YACN;0BACD,2PAAC,oJAAM;;;;;;;AAGb"}}]
+}
